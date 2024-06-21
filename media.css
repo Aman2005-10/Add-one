@@ -1,0 +1,208 @@
+@media (min-width: 250px) and (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .container h3 {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+
+    .container a {
+        font-size: 12px;
+    }
+
+    .homesection {
+        flex-direction: column;
+        height: auto;
+        padding: 50px 10px;
+    }
+
+    .homesection h1 {
+        font-size: 18px;
+        animation: none;
+        margin-top: 40px;
+    }
+
+    .homesection img {
+        width: 300px;
+        height: 300px;
+        position: relative;
+        right: 0;
+        margin-top: 30px;
+    }
+
+    .para p {
+        font-size: 18px;
+        padding: 0 10px;
+    }
+
+    .btn img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .get-btn a {
+        font-size: 14px;
+        padding: 6px 8px;
+    }
+
+    .about {
+        display: block;
+
+
+    }
+
+    .about img {
+        width: 300px;
+        height: 300px;
+        display: block;
+        margin: auto;
+    }
+
+    .about h2 {
+        display: block;
+        margin: auto;
+
+    }
+
+    .about p {
+        display: block;
+        margin: auto;
+
+    }
+
+
+    .con {
+
+        margin-top: 10%;
+        min-height: 200px;
+    }
+
+    .cards {
+        display: block;
+
+    }
+
+    .card {
+        width: 290px;
+        height: 430px;
+        display: block;
+        margin: auto;
+        margin-top: 8%;
+    }
+
+    .card a {
+        margin-left: 100px;
+        transition: all 1s;
+    }
+
+    .project:hover {
+        box-shadow: none;
+    }
+
+
+}
+
+
+
+/* Media query for devices with width between 600px and 900px */
+@media (min-width: 600px) and (max-width: 900px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .container {
+        padding: 10px 15px;
+    }
+
+    .container h3 {
+        font-size: 20px;
+        margin-left: 15px;
+    }
+
+    .container a {
+        font-size: 18px;
+    }
+
+    .homesection {
+        padding: 80px 20px;
+    }
+
+    .homesection h1 {
+        font-size: 18px;
+    }
+
+    .homesection img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .para p {
+        font-size: 20px;
+    }
+
+    .btn img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .get-btn a {
+        font-size: 16px;
+        padding: 7px 9px;
+    }
+
+    .about {
+        display: block;
+
+
+    }
+
+    .about img {
+        width: 300px;
+        height: 300px;
+        display: block;
+        margin: auto;
+    }
+
+    .about h2 {
+        display: block;
+        margin: auto;
+
+    }
+
+    .about p {
+        display: block;
+        margin: auto;
+
+    }
+
+    .con {
+
+        margin-top: 10%;
+        min-height: 270px;
+    }
+
+    .cards {
+        display: block;
+
+
+    }
+
+    .card {
+        display: block;
+        margin: auto;
+        margin-top: 6%;
+    }
+
+    .project:hover {
+        box-shadow: none;
+    }
+
+}
